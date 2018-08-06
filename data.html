@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Data</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  
+  <!-- My CSS -->
+  <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom" >
+      <a class="navbar-brand navbar-custom ml-5 pl-3 pr-3 pt-1" href="\index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-md-auto d-md-flex">
+            <li class="nav-item dropdown ml-3 mr-3">
+                    <a class="nav-link dropdown-toggle" style="color: #000000;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" style="color: #000000;" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" style="color: #000000;" href="/visualizations/temp.html">Max Temperature</a>
+                        <a class="dropdown-item" style="color: #000000;" href="/visualizations/humidity.html">Humidity</a>
+                        <a class="dropdown-item" style="color: #000000;" href="/visualizations/cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" style="color: #000000;" href="/visualizations/wind.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item ml-3 mr-3">
+                <a class="nav-link" style="color: #000000;" href="/comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item ml-3 mr-3">
+                <a class="nav-link" style="color: #000000;" href="/data.html">Data</a>
+                </li>
+            </div>
+    </nav>  
+
+
+  <div class="container mt-5 mb-5" style="background-color: #ffffff;">
+    <div class="col-sm-12 mt-5">
+        <h1 class="mb-3 pt-4 pb-2 pl-4">Data</h1>
+        <p class="pl-4">The following table includes all of the data used for plotting during this project.</p>
+        <object class="table" height="400" data="/convertcsv.htm"></object>
+                  
+    </div>  
+    <!-- Leave a margin at the bottom of the page, for the footer to occupy -->
+    <div class="push"></div>
+      <!-- end main container -->
+  </div>
+
+  <footer class="footer">
+      <div class="container">
+        <p class="text-center">
+          &copy;Copyright Coding Bootcamp 2018
+        </p>
+      </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

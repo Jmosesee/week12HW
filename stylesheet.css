@@ -1,0 +1,81 @@
+body {
+    background-color:#EDEDED;
+}
+
+h1 {
+    color: #0BADA6;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    border-bottom: solid 1px #EDEDED;
+}
+
+h3 {
+    color: #0BADA6;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    border-bottom: solid 1px #EDEDED;
+}
+
+h4 {
+    color: #0BADA6;
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+a {
+    color: #000000;
+}
+
+.dropdown-menu, .dropdown-item{
+    color: #000000;
+}
+
+.col-sm-4, .col-sm-7{
+    background-color: #ffffff;
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .navbar-custom {
+        background-color: #0BADA6;
+    }
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand{
+    background-color: #0BADA6;
+    color: #FFFFFF;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    height: 40px;
+}
+
+.navbar-custom .navbar-toggler-icon{
+    background-color: #0BADA6;
+    color: #FFFFFF;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    color: #FFFFFF;
+    background-color: #666666;
+    border-top: 6px solid #0BADA6;
+}
+
+.push {
+    height: 60px;
+}
